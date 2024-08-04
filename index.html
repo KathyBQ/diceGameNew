@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>COGS3 - Best of 10!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Let's Roll the Dice!</h1>
+
+        <h2>
+            If the dice add to 9 or above, you win $5! <br>
+            If the dice add to 5 or less, I win $5. <br>
+            Ready to play?
+        </h2>
+
+        <div>
+            <p> Do you want to roll the dice? </p>
+            <!-- Ask to get Input for the number of times -->
+            <p>Enter the times you want to play:</p>
+            <form>
+                <input class="inputForm" id="rollTimes" type="text" placeholder="input times here">
+            </form>
+
+            <button class="myBtn" onclick="letsPlay();">Let's Play Again!</button>
+        </div>
+
+        <div class="dice">
+            <img class="img1" src="images/dice6.png">
+        </div>
+
+        <div class="dice">
+            <img class="img2" src="images/dice6.png">
+        </div>
+    </div>
+
+    
+    <!-- JS will input the content -->
+    <h4>Your Balance: 0</h4>
+    <h2>Roll History</h2>
+    <h3></h3>
+    <h5></h5>
+
+    <footer>
+        COGS3 - Dice Game Bet 10 - Binqi Liu - July 28, 2024
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

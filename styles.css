@@ -1,0 +1,56 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #061aa0bd;
+    font-family: 'Lato', sans-serif;      
+}
+
+h1 {
+    margin: 30px;
+    text-shadow: 5px 0 rgba(48, 53, 88, 0.196);
+    font-size: 2rem;
+    font-weight: 600;
+    color: #92e996;
+}
+
+h2, h3, h4, h5 {
+    margin: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #92e996;
+    text-align: center;
+}
+
+p {
+    color: #92e996;
+}
+
+img {
+    width: 100%;
+    border-radius: 30%;
+    mix-blend-mode: hard-light;
+}
+
+.myBtn {
+    margin: 30px;
+}
+
+footer {
+    margin-top: 5%;
+    color: #92e996;
+    text-align: center;
+}
+
+.inputForm {
+    color: blue;
+    font-weight: bold;
+}
